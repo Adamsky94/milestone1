@@ -1,3 +1,13 @@
-p:hover {
-    text-align: center
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+
+
+/* ---------- images -------- */
+
+/*
+body {
+    background-image: url("../pics/gbkr.jpg");
+    background-repeat: none;
 }
+
+*/
