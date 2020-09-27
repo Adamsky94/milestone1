@@ -7,27 +7,54 @@
         <link rel="icon" type="image/png" href="/assets/pics/favicon.ico" />
         <!-- Bootstrap's CSS CDN used for the project -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+        <!-- My own CSS -->
         <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
     </head>
 
     <body>
-         <div class="container-fluid">
-                <nav>
-                     <ul class="navigation">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#">Resume</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Download CV</a></li>
-                    </ul>
-                </nav>
+        <div>
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <a href="index.html" class="navbar-brand">
+                    <img class="logo" src="/assets/pics/AK_logo.png" height="35" alt="Adam Kiss Full Stack Web Developer" />
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="#" class="nav-item nav-link">Resume</a>
+                        <a href="#" class="nav-item nav-link">Gallery</a>
+                        <a href="#" class="nav-item nav-link">Download CV</a>
+                    </div>
+                </div>
+            </nav>
 
-            <footer>
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="profileimg img-fluid mx-auto d-block" src="assets/pics/AKp.png" alt="Profile image of Adam Kiss" />
+                </div>
+                <div class="col-md-8 bg-success d-flex align-self-center text-center">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, eius? Temporibus hic reiciendis, nulla dolorum, eum eaque eius pariatur alias ipsam autem sapiente velit placeat, aut dolor nobis porro aspernatur?</p>
+                </div>
+            </div>
+        </div>
 
-            </footer>
+        <div class="row d-flex">
+            <div class="col-md-4 bg-success d-flex justify-content-center text-center">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nostrum exercitationem, dicta impedit, ex sequi molestias totam cumque quae porro quis adipisci corrupti incidunt minima? Quasi sit perferendis odit iure.</p>
+            </div>
+            <div class="col-md-8 bg-warning d-flex justify-content-center text-center">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos provident reiciendis at corporis temporibus ipsa sunt ad incidunt nemo vero ipsum, asperiores, ut eius est facilis quas sequi. Illo, dolorem.</p>
+            </div>
         </div>
     </body>
 
+    <!--Javascript-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </html>
