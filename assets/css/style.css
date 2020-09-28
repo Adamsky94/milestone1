@@ -6,7 +6,7 @@
 
 
 body {
-    background-image: url("../pics/bgkr.jpg");
+    background-image: url("../images/background.jpg");
     background-repeat: none;
 }
 
@@ -14,9 +14,18 @@ body {
     padding-top: 10px;
 }
 
+
 /* ---------- Navigation -------- */
 .bg-dark {
-    background-color: rgba(52,52,52, 0.2)!important;
+    background-color: rgba(255, 255, 255, 0.2)!important;
 }
 
 /* ---------- Footer -------- */
+
+
+.text-main {
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+
+
+}
