@@ -4,32 +4,29 @@
 body {
     color: whitesmoke;
 }
+
 /* ---------- images -------- */
 
-
+/*----- Code from https://www.w3schools.com/cssref/pr_background-attachment.asp ----*/
 body {
-    /*----- Code from https://www.w3schools.com/cssref/pr_background-attachment.asp ----*/
     background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    
 }
+
 /*----- Code from https://www.w3schools.com/cssref/pr_background-attachment.asp ending----*/
 .profileimg {
     padding-top: 10px;
     background: rgba(0, 0, 0, 0.25);
-    border-radius: 15px 50px;
-  
+    border-radius: 35px; 
 }
 
-.logo:hover
-{
+.logo:hover {
     transform: scale(1.2);
-    transition: .5s;
-    box-shadow: 0 10px 10px -10px rgba(255, 255, 255, 0.8);
-    
+    transition: 0.5s;
 }
+/*----- https://codepen.io/nxworld/pen/ZYNOBZ?fbclid=IwAR1C0Fp-oCTJS1KfeV7TDmL_3KJNneOL146xKX0Y1Bl6UbP6X6TSF_SKV-k ending----*/
 
 
 /* ---------- Navigation -------- */
@@ -37,6 +34,12 @@ body {
     background-color: rgba(0, 0, 0, 0.5)!important;
 }
 
+@media (min-width: 768px) {
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: .7rem;
+    padding-left: .7rem;
+}
+}
 /*---- Code from https://github.com/IanLunn/Hover/blob/master/css/hover.css ----*/
 .hvr-grow-shadow {
   display: inline-block;
@@ -51,51 +54,57 @@ body {
 }
 .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
   box-shadow: 0 10px 10px -10px rgba(255, 255, 255, 0.8);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+  transition: 0.3s;
 }
 /*---- Code from https://github.com/IanLunn/Hover/blob/master/css/hover.css ending----*/
-
-
-/* ---------- Footer -------- */
-
-
-.text-main {
-    font-family: Arial, Helvetica, sans-serif;
-    color: whitesmoke;
-
-
-}
 
 /*-------- Gallery ------*/
 
 /*---- Code from https://bootsnipp.com/snippets/p1qAD ----*/
 .gal {
-	
-	
 	-webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
-	  
-	
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+    margin: -10px;
+    padding: 20px;
 	}	
-	.gal img{ width: 100%; padding: 7px 0;}
+
+	.gal img{ 
+        width: 100%; 
+        padding: 7px 0;
+        border-radius: 35px;
+        }
+
+
 
 @media (max-width: 500px) {
 		
-		.gal {
-	
-	
+    .gal {
 	-webkit-column-count: 1; /* Chrome, Safari, Opera */
     -moz-column-count: 1; /* Firefox */
-    column-count: 1;
-	  
+    column-count: 1;  
+    padding: 20px;
+	}	
 	}
-		
-	}
+
     /*---- Code from https://bootsnipp.com/snippets/p1qAD ending----*/
 
-/* ----- Footer -----*/
-.footer {
+    /*----- https://codepen.io/nxworld/pen/ZYNOBZ?fbclid=IwAR1C0Fp-oCTJS1KfeV7TDmL_3KJNneOL146xKX0Y1Bl6UbP6X6TSF_SKV-k----*/
 
+    .hover01 img {
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
+
+.hover01 img:hover  {
+	
+    border-radius: 0px;
+}
+
+/*----- https://codepen.io/nxworld/pen/ZYNOBZ?fbclid=IwAR1C0Fp-oCTJS1KfeV7TDmL_3KJNneOL146xKX0Y1Bl6UbP6X6TSF_SKV-k ending----*/
+
+/* ----- Footer -----*/
