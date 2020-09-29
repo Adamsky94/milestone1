@@ -1,24 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Roboto:ital,wght@0,400;1,700&display=swap');
 
 
-
+body {
+    color: whitesmoke;
+}
 /* ---------- images -------- */
 
 
 body {
+    /*----- Code from https://www.w3schools.com/cssref/pr_background-attachment.asp ----*/
     background-image: url("../images/background.jpg");
-    background-repeat: none;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
 }
-
+/*----- Code from https://www.w3schools.com/cssref/pr_background-attachment.asp ending----*/
 .profileimg {
     padding-top: 10px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 15px 50px;
+  
 }
 
 
 /* ---------- Navigation -------- */
 .bg-dark {
-    background-color: rgba(255, 255, 255, 0.2)!important;
+    background-color: rgba(0, 0, 0, 0.5)!important;
 }
+
+/*---- Code from https://github.com/IanLunn/Hover/blob/master/css/hover.css ----*/
+.hvr-grow-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+  box-shadow: 0 10px 10px -10px rgba(255, 255, 255, 0.8);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/*---- Code from https://github.com/IanLunn/Hover/blob/master/css/hover.css ending----*/
+
 
 /* ---------- Footer -------- */
 
@@ -27,5 +56,38 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: whitesmoke;
 
+
+}
+
+/*-------- Gallery ------*/
+
+/*---- Code from https://bootsnipp.com/snippets/p1qAD ----*/
+.gal {
+	
+	
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+	  
+	
+	}	
+	.gal img{ width: 100%; padding: 7px 0;}
+
+@media (max-width: 500px) {
+		
+		.gal {
+	
+	
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+	  
+	}
+		
+	}
+    /*---- Code from https://bootsnipp.com/snippets/p1qAD ending----*/
+
+/* ----- Footer -----*/
+.footer {
 
 }
