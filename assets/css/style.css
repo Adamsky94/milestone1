@@ -5,6 +5,9 @@ body {
     color: whitesmoke;
 }
 
+.col-md-8 {
+}
+
 /* ---------- images -------- */
 
 /*----- Code from https://www.w3schools.com/cssref/pr_background-attachment.asp ----*/
@@ -22,10 +25,6 @@ body {
     border-radius: 35px; 
 }
 
-.logo:hover {
-    transform: scale(1.2);
-    transition: 0.5s;
-}
 /*----- https://codepen.io/nxworld/pen/ZYNOBZ?fbclid=IwAR1C0Fp-oCTJS1KfeV7TDmL_3KJNneOL146xKX0Y1Bl6UbP6X6TSF_SKV-k ending----*/
 
 
@@ -34,12 +33,23 @@ body {
     background-color: rgba(0, 0, 0, 0.5)!important;
 }
 
+.logo:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.fa-file-pdf {
+    padding-left: 7px;
+    color:rgb(200, 0, 0);
+}
+
 @media (min-width: 768px) {
 .navbar-expand-md .navbar-nav .nav-link {
     padding-right: .7rem;
     padding-left: .7rem;
 }
 }
+
 /*---- Code from https://github.com/IanLunn/Hover/blob/master/css/hover.css ----*/
 .hvr-grow-shadow {
   display: inline-block;
@@ -52,7 +62,7 @@ body {
   -webkit-transition-property: box-shadow, transform;
   transition-property: box-shadow, transform;
 }
-.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active{
   box-shadow: 0 10px 10px -10px rgba(255, 255, 255, 0.8);
   -webkit-transform: scale(1.15);
   transform: scale(1.15);
@@ -103,8 +113,42 @@ body {
 .hover01 img:hover  {
 	
     border-radius: 0px;
+    transform: scale(1.02);
 }
 
 /*----- https://codepen.io/nxworld/pen/ZYNOBZ?fbclid=IwAR1C0Fp-oCTJS1KfeV7TDmL_3KJNneOL146xKX0Y1Bl6UbP6X6TSF_SKV-k ending----*/
 
+
 /* ----- Footer -----*/
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10;
+}
+
+.footerlinks a{
+    padding: 10px;
+}
+
+.footericon:hover{
+    -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  color: rgb(0, 81, 255);
+}
+
+.footericon2:hover{
+    -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  color:rgb(200, 0, 0);
+}
+
+/* ----- Footer Icons -----*/
+
+.fa-linkedin, .fa-envelope, .fa-facebook-square{
+    font-size: 2rem;
+    color: whitesmoke;
+}
