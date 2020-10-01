@@ -22,6 +22,7 @@ body {
 }
 
 /*----- Code from https://www.w3schools.com/cssref/pr_background-attachment.asp ending----*/
+
 .profileimg {
     padding-top: 10px;
     background: rgba(0, 0, 0, 0.25);
@@ -29,7 +30,16 @@ body {
     margin-top: 35px;
 }
 
-/*----- https://codepen.io/nxworld/pen/ZYNOBZ?fbclid=IwAR1C0Fp-oCTJS1KfeV7TDmL_3KJNneOL146xKX0Y1Bl6UbP6X6TSF_SKV-k ending----*/
+@media (max-width: 768px) {
+    .profileimg {
+        transform: scale(0.9);
+    }
+
+    .pad-landscape {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+}
 
 /* ---------- Navigation -------- */
 .bg-dark {
