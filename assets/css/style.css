@@ -4,6 +4,13 @@ body {
     color: whitesmoke;
 }
 
+.pad-top {
+    padding-top: 25px;
+}
+
+.pad-bottom {
+    padding-bottom: 35px;
+}
 /* ---------- images -------- */
 
 /*----- Code from https://www.w3schools.com/cssref/pr_background-attachment.asp ----*/
@@ -12,14 +19,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-}
-
-.pad-top {
-    padding-top: 25px;
-}
-
-.pad-bottom {
-    padding-bottom: 35px;
 }
 
 /*----- Code from https://www.w3schools.com/cssref/pr_background-attachment.asp ending----*/
