@@ -14,6 +14,14 @@ body {
     background-size: cover;
 }
 
+.pad-top {
+    padding-top: 25px;
+}
+
+.pad-bottom {
+    padding-bottom: 35px;
+}
+
 /*----- Code from https://www.w3schools.com/cssref/pr_background-attachment.asp ending----*/
 .profileimg {
     padding-top: 10px;
@@ -26,7 +34,10 @@ body {
 
 /* ---------- Navigation -------- */
 .bg-dark {
-    background-color: rgba(0, 0, 0, 0.5) !important;
+    background-color: black !important;
+    -webkit-box-shadow: 0px 0px 50px 0px whitesmoke;
+    -moz-box-shadow: 0px 0px 50px 0px  whitesmoke;
+    box-shadow: 0px 0px 50px 0px  whitesmoke;
 }
 
 .logo {
@@ -131,9 +142,13 @@ body {
 /* ----- Footer -----*/
 
 footer {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10;
+    background-color: black;
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 50px 0px whitesmoke;
+    -moz-box-shadow: 0px 0px 50px 0px  whitesmoke;
+    box-shadow: 0px 0px 50px 0px  whitesmoke;
 }
+
 
 .footerlinks a {
     padding: 10px;
