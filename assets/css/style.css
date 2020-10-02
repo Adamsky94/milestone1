@@ -177,12 +177,11 @@ footer {
 /*----- https://www.w3schools.com/howto/howto_css_fixed_footer.asp ----*/
 
 .footer-sticky {
-  position: fixed;
+  position: absolute; 
   clear: both;
   left: 0;
   bottom: 0;
   width: 100%;
-  margin-top: 75px;
 }
 
 /*----- https://www.w3schools.com/howto/howto_css_fixed_footer.asp ending----*/
