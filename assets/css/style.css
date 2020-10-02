@@ -12,6 +12,16 @@ body {
     padding-bottom: 35px;
 }
 
+iframe {
+    width: 768px;
+    height: 480px;
+}
+
+.contactlinks a {
+    padding: 20px;
+}
+
+
 /* ---------- images -------- */
 
 /*----- Code from https://www.w3schools.com/cssref/pr_background-attachment.asp ----*/
@@ -34,7 +44,7 @@ body {
     box-shadow: inset 10px 10px 83px -5px rgba(0,0,0,0.5);
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .profileimg {
         transform: scale(0.9);
     }
@@ -43,7 +53,12 @@ body {
     padding-top: 0px;
     padding-bottom: 0px;
 }
+    iframe {
+    width: 480px;
+    height: 360px;
+    }
 }
+
 
 /* ---------- Navigation -------- */
 .bg-dark {
