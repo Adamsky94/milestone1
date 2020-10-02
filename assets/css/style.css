@@ -11,6 +11,7 @@ body {
 .pad-bottom {
     padding-bottom: 35px;
 }
+
 /* ---------- images -------- */
 
 /*----- Code from https://www.w3schools.com/cssref/pr_background-attachment.asp ----*/
@@ -25,9 +26,12 @@ body {
 
 .profileimg {
     padding-top: 10px;
-    background: rgba(0, 0, 0, 0.25);
+    background: rgba(0, 0, 0, 0.1);
     border-radius: 35px;
     margin-top: 35px;
+    -webkit-box-shadow: inset 10px 10px 83px -5px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 10px 10px 83px -5px rgba(0,0,0,0.5);
+    box-shadow: inset 10px 10px 83px -5px rgba(0,0,0,0.5);
 }
 
 @media (max-width: 768px) {
@@ -218,6 +222,7 @@ footer {
 .main-timeline{
     overflow: hidden;
     position: relative;
+    
 }
 .main-timeline:before{
     content: "";
@@ -284,6 +289,7 @@ footer {
     left: 0;
     bottom: 0;
     right: 0;
+    
 }
 .main-timeline .year{
     display: inline-block;
@@ -314,8 +320,7 @@ footer {
     background: #f2f2f2;
     position: relative;
     border-radius: 35px;
-    
-    
+
 }
 .main-timeline .timeline-content:after{
     content: "";
@@ -331,7 +336,7 @@ footer {
     float: left;
     font-size: 24px;
     font-weight: bold;
-    color: #504f54;
+    color: black;
     margin: 0 20px 20px 0;
 }
 .main-timeline .post{
@@ -342,7 +347,7 @@ footer {
 }
 .main-timeline .description{
     font-size: 14px;
-    color: #7d7b7b;
+    color: black;
     line-height: 24px;
     margin: 20px 0;
     clear: both;
@@ -404,7 +409,7 @@ footer {
     }
     .main-timeline .timeline:nth-child(2n) .year:before{
         border-left: none;
-        border-right: 18px solid #737ab4;
+        border-right: 18px solid rgb(0, 88, 228);
         right: auto;
         left: -18px;
     }
