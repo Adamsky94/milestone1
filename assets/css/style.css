@@ -87,7 +87,6 @@ body {
         padding-left: 0.7rem;
     }
 }
-
 /*---- Code from https://github.com/IanLunn/Hover/blob/master/css/hover.css ----*/
 .hvr-underline-from-center {
     display: inline-block;
@@ -179,6 +178,7 @@ footer {
 
 .footer-sticky {
   position: fixed;
+  clear: both;
   left: 0;
   bottom: 0;
   width: 100%;
