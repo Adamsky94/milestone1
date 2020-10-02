@@ -213,7 +213,8 @@ footer {
 
 .fa-linkedin,
 .fa-envelope,
-.fa-facebook-square {
+.fa-facebook-square, 
+.fa-skype{
     font-size: 2rem;
     color: whitesmoke;
 }
