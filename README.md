@@ -1,6 +1,6 @@
 # C.I. WebDev Course Milestone Project No.1
 
-<img src="/assets/images/AK_autograph.png" style="zoom: 33%;" />
+<img src="/assets/images/ak_autograph.png" alt="autograph" style="zoom: 33%;" />
 
 ##### <u>Project:</u> Personal Portfolio
 
@@ -22,7 +22,7 @@ I had a multiple page layout structure in my mind when I first started thinking 
 
 > The index page of the website would contain a navbar, profile picture, description text, links to other projects, and a footer section.
 
-<img src="/assets/images/wireframes/Home_wireframe.png" style="zoom: 67%;" />
+<img src="/assets/images/wireframes/home_wireframe.png" alt="home wireframe" style="zoom: 67%;" />
 
 
 
@@ -30,7 +30,7 @@ I had a multiple page layout structure in my mind when I first started thinking 
 
 > The resume page would have the navbar a full-size image of the customer on the left side and would have a scrolling text section on 2/3 of the screen listing details of education and previous employment.
 
-<img src="/assets/images/wireframes/Resume_wireframe.png" style="zoom:67%;" />
+<img src="/assets/images/wireframes/resume_wireframe.png" alt="resume wireframe" style="zoom:67%;" />
 
 
 
@@ -38,7 +38,7 @@ I had a multiple page layout structure in my mind when I first started thinking 
 
 > The gallery page would contain a tile-style gallery showing more of the personality of the customer while trying to generate sympathy from the potentional employers. Some basic CSS effect would be nice on the actual picture selected.
 
-<img src="/assets/images/wireframes/Gallery_wireframe.png" style="zoom:67%;" />
+<img src="/assets/images/wireframes/gallery_wireframe.png" alt="gallery wireframe" style="zoom:67%;" />
 
 **Update:** CSS hover effect used to highlight a single image tile from the group.
 
@@ -48,7 +48,7 @@ I had a multiple page layout structure in my mind when I first started thinking 
 
 > The contact page would show a short introductory video from the customer further emphasizing why would the potentional employer consider an invitation for an interview and getting in touch with the customer. Below the video there would be contact information listed.
 
-<img src="/assets/images/wireframes/Contact_wireframe.png" style="zoom:67%;" />
+<img src="/assets/images/wireframes/contact_wireframe.png" alt="contact wireframe" style="zoom:67%;" />
 
 
 
@@ -88,7 +88,7 @@ I have chosen the Overpass font-family imported from Google Fonts CDN having San
 
 ##### Images and video of the customer 
 
-<img src="/assets/images/AKp.png" alt="AK_p2" style="zoom: 25%;" />
+<img src="/assets/images/ak_p.png" alt="ak_profile" style="zoom: 25%;" />
 
 > I have asked my partner to shoot the images of myself that I had in mind to put to this project. She was also helping me recording the introductory video. For the logo in the navbar and for the favicon I used a digital drawing tablet to capture my handwriting. I have used Adobe Photoshop to edit these images and https://favicon.io/ for the favicon.
 
