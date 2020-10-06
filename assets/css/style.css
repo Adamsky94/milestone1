@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
 
 html {
     min-height: 100vh;
@@ -6,10 +13,15 @@ html {
 
 body {
     color: whitesmoke;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     min-height: 100vh;
-     font-family: 'Overpass', sans-serif;
+    font-family: "Overpass", sans-serif;
 }
 
 .pad-top {
@@ -20,23 +32,21 @@ body {
     padding-bottom: 35px;
 }
 
+.contactlinks a {
+    padding: 20px;
+}
+
 iframe {
     width: 768px;
     height: 480px;
 }
 
-.contactlinks a {
-    padding: 20px;
-}
-
 .projectlinks {
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 35px;
-     -webkit-box-shadow: inset 10px 10px 83px -5px rgba(255, 250, 250, 0.25);
-    -moz-box-shadow: inset 10px 10px 83px -5px rgba(255, 255, 255, 0.25);
+    -webkit-box-shadow: inset 10px 10px 83px -5px rgba(255, 250, 250, 0.25);
     box-shadow: inset 10px 10px 83px -5px rgba(255, 255, 255, 0.25);
 }
-
 
 /* ---------- images -------- */
 
@@ -55,23 +65,24 @@ body {
     background: rgba(0, 0, 0, 0.1);
     border-radius: 35px;
     margin-top: 35px;
-    -webkit-box-shadow: inset 10px 10px 83px -5px rgba(0,0,0,0.5);
-    -moz-box-shadow: inset 10px 10px 83px -5px rgba(0,0,0,0.5);
-    box-shadow: inset 10px 10px 83px -5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: inset 10px 10px 83px -5px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 10px 10px 83px -5px rgba(0, 0, 0, 0.5);
 }
 
 @media only screen and (max-width: 768px) {
     .profileimg {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
         transform: scale(0.9);
     }
 
     .pad-landscape {
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
     iframe {
-    width: 352px;
-    height: 240px;
+        width: 352px;
+        height: 240px;
     }
 }
 
@@ -82,24 +93,28 @@ body {
 }
 
 .projectimg:hover {
-        -webkit-transform: translateX(-3px);
-        transform: translateX(-3px);
+    -webkit-transform: translateX(-3px);
+    -ms-transform: translateX(-3px);
+    transform: translateX(-3px);
 }
 
 /* ---------- Navigation -------- */
 .bg-dark {
     background-color: black !important;
     -webkit-box-shadow: 0px 0px 50px 0px whitesmoke;
-    -moz-box-shadow: 0px 0px 50px 0px  whitesmoke;
-    box-shadow: 0px 0px 50px 0px  whitesmoke;
+    box-shadow: 0px 0px 50px 0px whitesmoke;
 }
 
 .logo {
-    height: 35px
+    height: 35px;
 }
 
 .logo:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
     transform: scale(1.2);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
 }
 .fa-file-pdf {
@@ -132,10 +147,13 @@ body {
     background: whitesmoke;
     height: 1px;
     -webkit-transition-property: left, right;
+    -o-transition-property: left, right;
     transition-property: left, right;
     -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
     transition-duration: 0.3s;
     -webkit-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
 }
 .hvr-underline-from-center:hover:before,
@@ -163,6 +181,7 @@ body {
     width: 100%;
     padding: 7px 0;
     border-radius: 35px;
+    -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
 
@@ -181,11 +200,15 @@ body {
 
 .hover01 img {
     -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
 }
 
 .hover01 img:hover {
+    -webkit-transform: scale(1.02);
+    -ms-transform: scale(1.02);
     transform: scale(1.02);
+    -webkit-filter: none;
     filter: none;
 }
 
@@ -197,13 +220,12 @@ footer {
     background-color: black;
     padding: 10px;
     -webkit-box-shadow: 0px 0px 50px 0px whitesmoke;
-    -moz-box-shadow: 0px 0px 50px 0px  whitesmoke;
-    box-shadow: 0px 0px 50px 0px  whitesmoke;
+    box-shadow: 0px 0px 50px 0px whitesmoke;
 }
 /*----- code from https://www.youtube.com/watch?v=yc2olxLgKLk&ab_channel=KevinPowell -----*/
 
 .footer-sticky {
-  margin-top: auto;
+    margin-top: auto;
 }
 
 /*----- code from https://www.youtube.com/watch?v=yc2olxLgKLk&ab_channel=KevinPowell -----*/
@@ -214,16 +236,20 @@ footer {
 
 .footericon:hover {
     -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
     transform: scale(1.15);
     -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
     transition-duration: 0.3s;
     color: rgb(0, 88, 228);
 }
 
 .footericon2:hover {
     -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
     transform: scale(1.15);
     -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
     transition-duration: 0.3s;
     color: rgb(200, 0, 0);
 }
@@ -232,8 +258,8 @@ footer {
 
 .fa-linkedin,
 .fa-envelope,
-.fa-facebook-square, 
-.fa-skype{
+.fa-facebook-square,
+.fa-skype {
     font-size: 2rem;
     color: whitesmoke;
 }
@@ -241,8 +267,6 @@ footer {
 /* ----- Timeline -----*/
 
 /*------- Code from https://bestjquery.com/tutorial/timeline/demo19/ -----*/
-
-/* Timeline */
 
 .timeline {
     padding-bottom: 10px;
@@ -256,8 +280,10 @@ footer {
 
 .timeline p i:hover {
     -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
     transform: scale(1.5);
     -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
     transition-duration: 0.3s;
 }
 
@@ -265,12 +291,11 @@ footer {
     color: black;
 }
 
-.main-timeline{
+.main-timeline {
     overflow: hidden;
     position: relative;
-    
 }
-.main-timeline:before{
+.main-timeline:before {
     content: "";
     width: 3px;
     height: 100%;
@@ -279,19 +304,19 @@ footer {
     top: 0;
     left: 50%;
 }
-.main-timeline .timeline{
+.main-timeline .timeline {
     padding-right: 30px;
     position: relative;
 }
 .main-timeline .timeline:before,
-.main-timeline .timeline:after{
+.main-timeline .timeline:after {
     content: "";
     display: block;
     width: 100%;
     clear: both;
 }
 .main-timeline .timeline:first-child:before,
-.main-timeline .timeline:last-child:before{
+.main-timeline .timeline:last-child:before {
     content: "";
     width: 13px;
     height: 13px;
@@ -304,16 +329,17 @@ footer {
     left: 0;
     right: -3px;
 }
-.main-timeline .timeline:last-child:before{
+.main-timeline .timeline:last-child:before {
     top: auto;
     bottom: 0;
 }
-.main-timeline .timeline-icon{
+.main-timeline .timeline-icon {
     width: 18px;
     height: 18px;
     border-radius: 50%;
     background: #fff;
     border: 2px solid #d6d5d5;
+    -webkit-box-sizing: content-box;
     box-sizing: content-box;
     margin: auto;
     position: absolute;
@@ -322,7 +348,7 @@ footer {
     bottom: 0;
     right: -4px;
 }
-.main-timeline .timeline-icon:before{
+.main-timeline .timeline-icon:before {
     content: "";
     display: block;
     width: 8px;
@@ -335,9 +361,8 @@ footer {
     left: 0;
     bottom: 0;
     right: 0;
-    
 }
-.main-timeline .year{
+.main-timeline .year {
     display: inline-block;
     padding: 8px 20px;
     margin: 0;
@@ -348,9 +373,11 @@ footer {
     position: absolute;
     top: 50%;
     right: 35%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
-.main-timeline .year:before{
+.main-timeline .year:before {
     content: "";
     border-right: 18px solid rgb(0, 63, 165);
     border-top: 18px solid transparent;
@@ -359,16 +386,15 @@ footer {
     top: 0;
     left: -18px;
 }
-.main-timeline .timeline-content{
+.main-timeline .timeline-content {
     width: 46.5%;
     padding: 20px 30px;
     margin: 0 20px 0 0;
     background: #f2f2f2;
     position: relative;
     border-radius: 35px;
-
 }
-.main-timeline .timeline-content:after{
+.main-timeline .timeline-content:after {
     content: "";
     border-left: 20px solid #f2f2f2;
     border-top: 20px solid transparent;
@@ -376,22 +402,24 @@ footer {
     position: absolute;
     top: 50%;
     right: -20px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
-.main-timeline .title{
+.main-timeline .title {
     float: left;
     font-size: 24px;
     font-weight: bold;
     color: black;
     margin: 0 20px 20px 0;
 }
-.main-timeline .post{
+.main-timeline .post {
     display: inline-block;
     font-size: 14px;
     color: #999;
     margin-top: 6px;
 }
-.main-timeline .description{
+.main-timeline .description {
     font-size: 14px;
     color: black;
     line-height: 24px;
@@ -399,50 +427,62 @@ footer {
     clear: both;
     text-align: justify;
 }
-.main-timeline .timeline:nth-child(2n){ padding: 0 0 0 30px; }
-.main-timeline .timeline:nth-child(2n) .year{
+.main-timeline .timeline:nth-child(2n) {
+    padding: 0 0 0 30px;
+}
+.main-timeline .timeline:nth-child(2n) .year {
     right: auto;
     left: 35%;
 }
-.main-timeline .timeline:nth-child(2n) .year:before{
+.main-timeline .timeline:nth-child(2n) .year:before {
     border: 18px solid transparent;
     border-right: none;
     border-left: 18px solid rgb(0, 63, 165);
     left: auto;
     right: -18px;
 }
-.main-timeline .timeline:nth-child(2n) .timeline-content{
+.main-timeline .timeline:nth-child(2n) .timeline-content {
     float: right;
     margin: 0 0 0 20px;
 }
-.main-timeline .timeline:nth-child(2n) .timeline-content:after{
+.main-timeline .timeline:nth-child(2n) .timeline-content:after {
     border-left: none;
     border-right: 20px solid #f2f2f2;
     right: auto;
     left: -20px;
 }
-@media only screen and (max-width: 1200px){
-    .main-timeline .year{ right: 30%; }
-    .main-timeline .timeline:nth-child(2n) .year{ left: 30%; }
+@media only screen and (max-width: 1200px) {
+    .main-timeline .year {
+        right: 30%;
+    }
+    .main-timeline .timeline:nth-child(2n) .year {
+        left: 30%;
+    }
 }
 
-@media only screen and (max-width: 992px){
-    .main-timeline:before{ left: 10px; }
-    .main-timeline .timeline{
+@media only screen and (max-width: 992px) {
+    .main-timeline:before {
+        left: 10px;
+    }
+    .main-timeline .timeline {
         padding: 0 0 0 30px;
         margin-bottom: 20px;
     }
-    .main-timeline .timeline:last-child{ margin-bottom: 0; }
+    .main-timeline .timeline:last-child {
+        margin-bottom: 0;
+    }
     .main-timeline .timeline:first-child:before,
-    .main-timeline .timeline:last-child:before{ display: none; }
-    .main-timeline .timeline-icon{
+    .main-timeline .timeline:last-child:before {
+        display: none;
+    }
+    .main-timeline .timeline-icon {
         margin: 0;
         position: absolute;
         top: 7px;
         left: 0;
     }
     .main-timeline .year,
-    .main-timeline .timeline:nth-child(2n) .year{
+    .main-timeline .timeline:nth-child(2n) .year {
         display: block;
         font-weight: bold;
         margin: 0 0 32px 30px;
@@ -451,23 +491,27 @@ footer {
         top: auto;
         left: auto;
         right: auto;
+        -webkit-transform: none;
+        -ms-transform: none;
         transform: none;
     }
-    .main-timeline .timeline:nth-child(2n) .year:before{
+    .main-timeline .timeline:nth-child(2n) .year:before {
         border-left: none;
         border-right: 18px solid rgb(0, 63, 165);
         right: auto;
         left: -18px;
     }
-    .main-timeline .timeline-content{ padding: 20px; }
+    .main-timeline .timeline-content {
+        padding: 20px;
+    }
     .main-timeline .timeline-content,
-    .main-timeline .timeline:nth-child(2n) .timeline-content{
+    .main-timeline .timeline:nth-child(2n) .timeline-content {
         width: auto;
         float: none;
         margin: 0 0 0 30px;
     }
     .main-timeline .timeline-content:after,
-    .main-timeline .timeline:nth-child(2n) .timeline-content:after{
+    .main-timeline .timeline:nth-child(2n) .timeline-content:after {
         border: none;
         border-bottom: 20px solid #f2f2f2;
         border-left: 20px solid transparent;
@@ -475,19 +519,27 @@ footer {
         top: -20px;
         left: 50%;
         right: auto;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
         transform: translateX(-50%);
     }
 }
-@media only screen and (max-width: 480px){
-    .main-timeline .title{
+@media only screen and (max-width: 480px) {
+    .main-timeline .title {
         float: none;
         margin: 0;
     }
     .main-timeline .year,
-    .main-timeline .timeline:nth-child(2n) .year{ margin-left: 20px; }
+    .main-timeline .timeline:nth-child(2n) .year {
+        margin-left: 20px;
+    }
     .main-timeline .timeline-content,
-    .main-timeline .timeline:nth-child(2n) .timeline-content{ margin-left: 10px; }
-    .main-timeline .post{ margin: 5px 0; }
+    .main-timeline .timeline:nth-child(2n) .timeline-content {
+        margin-left: 10px;
+    }
+    .main-timeline .post {
+        margin: 5px 0;
+    }
 }
 
 /*------- Code from https://bestjquery.com/tutorial/timeline/demo19/ ending-----*/
