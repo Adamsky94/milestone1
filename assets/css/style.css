@@ -36,9 +36,13 @@ body {
     padding: 20px;
 }
 
+.zeromargin {
+    margin: 0;
+}
+
 iframe {
     width: 768px;
-    height: 480px;
+    height: 435px;
 }
 
 .projectlinks {
@@ -82,7 +86,7 @@ body {
     }
     iframe {
         width: 352px;
-        height: 240px;
+        height: 200px;
     }
 }
 
