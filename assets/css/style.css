@@ -40,6 +40,10 @@ body {
     margin: 0;
 }
 
+.main-text {
+    line-height: 1.7;
+}
+
 iframe {
     width: 768px;
     height: 435px;
