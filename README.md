@@ -80,7 +80,7 @@ I gave the pages a black frame on the top and bottom with the navbar and the foo
 
 I used opaque black background on the images that are showing up on the pages. 
 
-I have chosen #smokewhite as a main color of text, the only exception is on the resume page.
+I have chosen #whitesmoke as a main color of text, the only exception is on the resume page.
 
 I have chosen the Overpass font-family imported from Google Fonts CDN having Sans-Serif as a fall-back.
 
@@ -174,9 +174,9 @@ If you'd like to see and work on my code locally feel free to clone the reposito
 
 ***Shuvendu Dhenki*** - https://bootsnipp.com/snippets/p1qAD - for code segment used in gallery.html
 
-***bestjquery.com*** - https://bestjquery.com/tutorial/timeline/demo19/ - for code segment used in resume.html
-
 ***Kevin Powell*** -  https://www.youtube.com/watch?v=yc2olxLgKLk&ab_channel=KevinPowell - for help in positioning the footer
+
+***bestjquery*** - https://bestjquery.com/tutorial/timeline/demo19/ - for code segment used in resume.html
 
 ***W3schools*** - https://www.w3schools.com/ - for various code segments, examples and explanations used throughout the project
 
