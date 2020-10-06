@@ -122,7 +122,7 @@ https://github.com/Adamsky94/milestone1
 
 .css document validated on - https://jigsaw.w3.org/css-validator/
 
-Responsivity for mobile devices tested on - http://www.responsinator.com/ and in Google Chrome Developer Tools
+Responsivity for mobile devices tested on - http://www.responsinator.com/ and https://techsini.com/multi-mockup/ and in Google Chrome Developer Tools
 
 Used online autoprefixer for maximum browser compatibility - https://autoprefixer.github.io/
 
@@ -130,7 +130,7 @@ Used online code formatter in order to achieve optimal syntax - https://webforma
 
 Used online image compressor for achieving the fastest image loadtimes from the server - https://imagecompressor.com/
 
-
+![](/assets/images/multi.png)
 
 **Technological limitations/Barriers**
 
@@ -151,8 +151,6 @@ To deploy the website to GitHub Pages I had to go into the settings on my reposi
 #### The live project page: https://adamsky94.github.io/milestone1/
 
 ![](/assets/images/landing.png)
-
-
 
 GitHub document for deploying to GitHub Pages: https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 
