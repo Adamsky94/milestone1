@@ -198,6 +198,8 @@ If you'd like to see and work on my code locally feel free to clone the reposito
 
 ***W3schools*** - https://www.w3schools.com/ - for various code segments, examples and explanations used throughout the project
 
+***freeCodeCamp*** - https://www.freecodecamp.org/news/how-to-create-a-contact-form-with-css/ - for contact form 
+
 ***Font Awesome*** -  https://fontawesome.com/ - CDN for icons used in the project
 
 ***Google Fonts*** - https://fonts.google.com/ - CDN for fonts used in the project
