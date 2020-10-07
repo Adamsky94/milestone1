@@ -72,7 +72,11 @@ I had a multiple page layout structure in my mind when I first started thinking 
 
 **Mobile wireframes**
 
+Home
+
 ![](/assets/images/wireframes/mobile_wireframe1.png)
+
+Gallery 
 
 ![](/assets/images/wireframes/mobile_wireframe2.png)
 
@@ -174,7 +178,7 @@ If you'd like to see and work on my code locally feel free to clone the reposito
 
 ### Credits
 
-***Antonio Rodgrigez*** - My mentor at Code Institute - for checking up on me and my project and giving me feedback and directions
+***Antonio Rodrigez*** - My mentor at Code Institute - for checking up on me and my project and giving me feedback and directions
 
 ***Matt Rudge*** - Lecturer/Developer at Code Institute -  https://github.com/Code-Institute-Org/gitpod-full-template - for template used with GitPod IDE for developing this project
 
