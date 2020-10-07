@@ -4,6 +4,8 @@
 
 ##### <u>Project:</u> Personal Portfolio
 
+### The live project page: https://adamsky94.github.io/milestone1/
+
 ### Project Goals
 
 The customer (myself) would like to get employed and would like generate interest about himself using showcasing personal traits and abilities in an online presence other than the usual Social Media sites.
@@ -68,7 +70,11 @@ I had a multiple page layout structure in my mind when I first started thinking 
 
 > The footer would have basic copyright information displayed as well as icons linked to the various social media platforms and contact forms of the customer.
 
+**Mobile wireframes**
 
+![](/assets/images/wireframes/mobile_wireframe1.png)
+
+![](/assets/images/wireframes/mobile_wireframe2.png)
 
 **Color scheme and typography**
 
@@ -122,7 +128,17 @@ https://github.com/Adamsky94/milestone1
 
 .css document validated on - https://jigsaw.w3.org/css-validator/
 
-Responsivity for mobile devices tested on - http://www.responsinator.com/ and https://techsini.com/multi-mockup/ and in Google Chrome Developer Tools
+Responsivity for mobile devices tested on :
+
+- http://www.responsinator.com/ and https://techsini.com/multi-mockup/ 
+
+- Google Chrome Developer Tools
+
+- Microsoft Edge 
+
+- Opera Browser
+
+- Mozilla Firefox on Galaxy S9 setting
 
 Used online autoprefixer for maximum browser compatibility - https://autoprefixer.github.io/
 
@@ -148,7 +164,7 @@ Used online image compressor for achieving the fastest image loadtimes from the 
 
 To deploy the website to GitHub Pages I had to go into the settings on my repository. There scroll down to the GitHub Pages section, select the branch and choose the root folder to publish it. Then save the whole setting and it was live. I have done it a few days ago to the request of my Mentor so He could see how I was doing. 
 
-#### The live project page: https://adamsky94.github.io/milestone1/
+### The live project page: https://adamsky94.github.io/milestone1/
 
 ![](/assets/images/landing.png)
 
